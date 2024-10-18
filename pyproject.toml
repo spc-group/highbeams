@@ -19,7 +19,7 @@ classifiers = [
     "Topic :: System :: Hardware",
 ]
 keywords = []
-dependencies = []
+dependencies = ["caproto", "wled"]
 
 [project.optional-dependencies]
 dev = ["black", "pytest", "flake8", "isort"]
